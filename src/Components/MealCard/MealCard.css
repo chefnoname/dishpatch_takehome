@@ -1,0 +1,56 @@
+.mealContainer img {
+  height: 270px;
+  margin-right: 30px;
+}
+
+.servingSuggestion {
+  font-size: 12px;
+  color: #888a86;
+}
+
+.dishName {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: -20px;
+}
+
+.chef {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .mealContainer img {
+    height: 150px;
+  }
+
+  .dishName {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .mealContainer img {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .mealContainer img {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1430px) {
+  .mealContainer img {
+    height: 155px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1500px) {
+  .mealContainer img {
+    height: 200px;
+  }
+}
